@@ -9,7 +9,7 @@ module.exports = function(grunt) {
         separator: ';'
       },
       dist: {
-        src: ['public/**/*.js'],
+        src: ['public/client/*.js'],
         // dest: '<% =distFolder %>.js'
         dest: 'public/dist/concat.js'
       },
